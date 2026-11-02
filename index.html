@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BWKotwieja-Meble | Kuchnie i meble na wymiar, Tarnów</title>
+<meta name="description" content="BWKotwieja-Meble, producent mebli w Tarnowie. Meble kuchenne, biurowe, sklepowe, garderoby, meble łazienkowe i pokojowe na wymiar. Darmowa wycena Twojego projektu. Szczytowa 23, Tarnów. Tel. 602 503 440.">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Familjen+Grotesk:wght@500;600;700&family=Instrument+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://unpkg.com/lucide@0.460.0/dist/umd/lucide.js"></script>
+<link rel="stylesheet" href="styles.css">
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        colors: {
+          plyta: '#ecedea',
+          front: '#fafaf8',
+          grafit: '#222527',
+          'grafit-raised': '#2d3134',
+          'ink-soft': '#4e5552',
+          dab: '#b5814c',
+          'dab-dark': '#835628',
+          'dab-light': '#d9ab79',
+        },
+        fontFamily: {
+          sans: ['"Instrument Sans"', 'sans-serif'],
+          display: ['"Familjen Grotesk"', 'sans-serif'],
+        },
+      },
+    },
+  };
+</script>
+</head>
+<body class="bg-plyta text-grafit">
+
+<!-- ============ HEADER ============ -->
+<header id="site-header" class="site-header fixed top-0 left-0 right-0 z-50">
+  <div class="max-w-7xl mx-auto px-5 md:px-8 h-16 md:h-20 flex items-center justify-between gap-4">
+    <a href="index.html" class="focus-ring rounded-md font-display font-bold text-lg md:text-xl tracking-tight leading-none whitespace-nowrap">
+      BWKotwieja<span class="text-dab-dark">-Meble</span>
+    </a>
+    <nav class="hidden md:flex items-center gap-8 text-[0.95rem] font-medium" aria-label="Główna nawigacja">
+      <a href="uslugi.html" class="nav-link focus-ring">Usługi</a>
+      <a href="#realizacje" class="nav-link focus-ring">Realizacje</a>
+      <a href="#opinie" class="nav-link focus-ring">Opinie</a>
+      <a href="#kontakt" class="nav-link focus-ring">Kontakt</a>
+    </nav>
+    <div class="flex items-center gap-2">
+      <a href="tel:602503440" class="btn btn-dark px-5 py-2.5 text-sm">
+        <i data-lucide="phone" class="w-4 h-4"></i>
+        <span class="hidden sm:inline">602 503 440</span><span class="sm:hidden">Zadzwoń</span>
+      </a>
+      <button id="menu-toggle" class="md:hidden btn btn-outline w-11 h-11 !p-0" aria-label="Otwórz menu" aria-expanded="false" aria-controls="mobile-menu">
+        <i data-lucide="menu" class="w-5 h-5"></i>
+      </button>
+    </div>
+  </div>
+  <nav id="mobile-menu" class="mobile-menu md:hidden absolute left-0 right-0 top-full bg-front border-b border-black/10 px-5 py-4" aria-label="Menu mobilne">
+    <ul class="flex flex-col text-lg font-semibold">
+      <li><a href="uslugi.html" class="block py-3 border-b border-black/5">Usługi</a></li>
+      <li><a href="#realizacje" class="block py-3 border-b border-black/5">Realizacje</a></li>
+      <li><a href="#opinie" class="block py-3 border-b border-black/5">Opinie</a></li>
+      <li><a href="#kontakt" class="block py-3">Kontakt</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+<!-- ============ HERO ============ -->
+<section class="relative overflow-hidden pt-28 md:pt-36 pb-16 md:pb-24 px-5 md:px-8">
+  <div class="grain"></div>
+  <div class="relative max-w-7xl mx-auto grid lg:grid-cols-[1fr_1.05fr] gap-12 lg:gap-16 items-center">
+    <div>
+      <h1 class="heading-xl">Kuchnie i&nbsp;zabudowy robione na <span class="oak-mark">Twój wymiar</span></h1>
+      <p class="lead mt-6 max-w-xl">Stolarnia z&nbsp;Tarnowa. Mierzymy, doradzamy, wykonujemy i&nbsp;montujemy meble kuchenne, szafy, garderoby oraz meble do biura, sklepu, łazienki i&nbsp;pokoju.</p>
+      <div class="mt-9 flex flex-wrap gap-3">
+        <a href="tel:602503440" class="btn btn-oak px-6 py-4 text-base">
+          <i data-lucide="phone" class="w-5 h-5"></i> Zadzwoń: 602 503 440
+        </a>
+        <a href="#wycena" class="btn btn-outline px-6 py-4 text-base">Darmowa wycena projektu</a>
+      </div>
+      <ul class="mt-10 flex flex-wrap gap-x-7 gap-y-3 text-[0.95rem] text-ink-soft">
+        <li class="flex items-center gap-2"><i data-lucide="star" class="w-4 h-4 text-dab fill-current"></i><strong class="text-grafit">5,0</strong> na Oferteo (9 opinii)</li>
+        <li class="flex items-center gap-2"><i data-lucide="calendar-check" class="w-4 h-4 text-dab-dark"></i>12 lat na Oferteo</li>
+        <li class="flex items-center gap-2"><i data-lucide="clock" class="w-4 h-4 text-dab-dark"></i>Pn–Pt 7:00–16:00</li>
+      </ul>
+    </div>
+
+    <div class="collage">
+      <div class="photo collage-main">
+        <img src="images/25.webp" alt="Grafitowa kuchnia z lamelami i frontami w dekorze drewna przy dużym oknie">
+      </div>
+      <div class="photo collage-top">
+        <img src="images/4.webp" alt="Kuchnia z wyspą w kolorze granatu, białymi frontami i jasnym blatem">
+      </div>
+      <div class="photo collage-bottom">
+        <img src="images/12.webp" alt="Biała kuchnia z podświetleniem LED i dębowym blatem" style="object-position:50% 60%">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ USŁUGI ============ -->
+<section id="uslugi" class="relative py-20 md:py-28 px-5 md:px-8 bg-front border-y border-black/5">
+  <div class="max-w-7xl mx-auto">
+    <div class="flex flex-col md:flex-row md:items-end md:justify-between gap-6 mb-12 reveal">
+      <div class="max-w-2xl">
+        <h2 class="heading-lg">Co dla Ciebie zrobimy</h2>
+        <p class="lead mt-4">Najwięcej robimy kuchni, ale w pracowni powstają meble do każdego pomieszczenia. Wszystko na wymiar, z&nbsp;nowoczesnych płyt, frontów i&nbsp;okuć.</p>
+      </div>
+      <a href="uslugi.html" class="text-link shrink-0">Wszystkie usługi <i data-lucide="arrow-right" class="w-4 h-4"></i></a>
+    </div>
+
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-5">
+      <a href="uslugi.html#kuchnie" class="surface card-link p-6 md:p-7 flex flex-col reveal">
+        <span class="icon-chip"><i data-lucide="cooking-pot" class="w-5 h-5"></i></span>
+        <h3 class="heading-md mt-5">Meble kuchenne</h3>
+        <p class="mt-2 text-ink-soft">Kuchnie w literę L i&nbsp;U, z&nbsp;wyspą lub barkiem, zabudowa AGD w&nbsp;słupkach, narożniki z&nbsp;półkami wysuwanymi.</p>
+        <span class="text-link mt-auto pt-5">Zobacz więcej <i data-lucide="arrow-right" class="w-4 h-4"></i></span>
+      </a>
+      <a href="uslugi.html#garderoby" class="surface card-link p-6 md:p-7 flex flex-col reveal">
+        <span class="icon-chip"><i data-lucide="shirt" class="w-5 h-5"></i></span>
+        <h3 class="heading-md mt-5">Garderoby i&nbsp;szafy</h3>
+        <p class="mt-2 text-ink-soft">Szafy wnękowe z&nbsp;drzwiami przesuwnymi, garderoby i&nbsp;spiżarnie z&nbsp;szufladami wewnętrznymi.</p>
+        <span class="text-link mt-auto pt-5">Zobacz więcej <i data-lucide="arrow-right" class="w-4 h-4"></i></span>
+      </a>
+      <a href="uslugi.html#pokojowe" class="surface card-link p-6 md:p-7 flex flex-col reveal">
+        <span class="icon-chip"><i data-lucide="bed-double" class="w-5 h-5"></i></span>
+        <h3 class="heading-md mt-5">Meble pokojowe</h3>
+        <p class="mt-2 text-ink-soft">Łóżka w&nbsp;zabudowie, biurka, regały i&nbsp;szafki. Także komplety do kilku pokoi naraz.</p>
+        <span class="text-link mt-auto pt-5">Zobacz więcej <i data-lucide="arrow-right" class="w-4 h-4"></i></span>
+      </a>
+      <a href="uslugi.html#biurowe" class="surface card-link p-6 md:p-7 flex flex-col reveal">
+        <span class="icon-chip"><i data-lucide="briefcase" class="w-5 h-5"></i></span>
+        <h3 class="heading-md mt-5">Meble biurowe</h3>
+        <p class="mt-2 text-ink-soft">Biurka, regały na dokumenty i&nbsp;zabudowy gabinetów, dopasowane do wnętrza i&nbsp;sposobu pracy.</p>
+        <span class="text-link mt-auto pt-5">Zobacz więcej <i data-lucide="arrow-right" class="w-4 h-4"></i></span>
+      </a>
+      <a href="uslugi.html#sklepowe" class="surface card-link p-6 md:p-7 flex flex-col reveal">
+        <span class="icon-chip"><i data-lucide="store" class="w-5 h-5"></i></span>
+        <h3 class="heading-md mt-5">Meble sklepowe</h3>
+        <p class="mt-2 text-ink-soft">Lady, regały ekspozycyjne i&nbsp;witryny pod wymiar lokalu i&nbsp;asortyment.</p>
+        <span class="text-link mt-auto pt-5">Zobacz więcej <i data-lucide="arrow-right" class="w-4 h-4"></i></span>
+      </a>
+      <a href="uslugi.html#lazienkowe" class="surface card-link p-6 md:p-7 flex flex-col reveal">
+        <span class="icon-chip"><i data-lucide="bath" class="w-5 h-5"></i></span>
+        <h3 class="heading-md mt-5">Meble łazienkowe</h3>
+        <p class="mt-2 text-ink-soft">Szafki pod umywalkę, słupki i&nbsp;zabudowy pralki, z&nbsp;materiałów odpornych na wilgoć.</p>
+        <span class="text-link mt-auto pt-5">Zobacz więcej <i data-lucide="arrow-right" class="w-4 h-4"></i></span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ DLACZEGO MY ============ -->
+<section class="relative py-20 md:py-28 px-5 md:px-8">
+  <div class="max-w-7xl mx-auto grid lg:grid-cols-[1fr_1.1fr] gap-12 lg:gap-16 items-center">
+    <div class="photo aspect-[4/5] lg:aspect-[4/4.6] reveal">
+      <img src="images/23.webp" alt="Grafitowa kuchnia w literę L z barkiem w dekorze drewna" loading="lazy">
+    </div>
+    <div>
+      <h2 class="heading-lg reveal">Za co klienci nas polecają</h2>
+      <p class="lead mt-4 reveal">Nie musimy tego opisywać sami. Poniżej słowa osób, dla których robiliśmy meble.</p>
+      <div class="mt-10 grid sm:grid-cols-2 gap-x-8 gap-y-9">
+        <div class="reveal">
+          <i data-lucide="calendar-clock" class="w-6 h-6 text-dab-dark"></i>
+          <h3 class="font-display font-bold text-xl mt-3 tracking-tight">Terminowo</h3>
+          <p class="mt-2 text-ink-soft">„Montaż w&nbsp;terminie, wszystko zgodne z&nbsp;ustaleniami.”</p>
+        </div>
+        <div class="reveal">
+          <i data-lucide="messages-square" class="w-6 h-6 text-dab-dark"></i>
+          <h3 class="font-display font-bold text-xl mt-3 tracking-tight">Z&nbsp;doradztwem</h3>
+          <p class="mt-2 text-ink-soft">„Nie miałam pomysłu na jedną ściankę, ale Pan Wawrzyniec super doradził rozwiązanie.”</p>
+        </div>
+        <div class="reveal">
+          <i data-lucide="ruler" class="w-6 h-6 text-dab-dark"></i>
+          <h3 class="font-display font-bold text-xl mt-3 tracking-tight">Solidnie złożone</h3>
+          <p class="mt-2 text-ink-soft">„Złożenie wszystkich mebli: nic się nie rusza, nie chwieje!”</p>
+        </div>
+        <div class="reveal">
+          <i data-lucide="badge-check" class="w-6 h-6 text-dab-dark"></i>
+          <h3 class="font-display font-bold text-xl mt-3 tracking-tight">W&nbsp;rozsądnej cenie</h3>
+          <p class="mt-2 text-ink-soft">„Wszystko wykonane ze szczególną dokładnością, a&nbsp;przede wszystkim ma konkurencyjne ceny.”</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ WŁASNY PROJEKT ============ -->
+<section id="wycena" class="relative bg-grafit text-front on-dark overflow-hidden">
+  <div class="grain"></div>
+  <div class="wood h-3 w-full" aria-hidden="true"></div>
+  <div class="relative max-w-7xl mx-auto px-5 md:px-8 py-20 md:py-24 grid lg:grid-cols-[1.2fr_1fr] gap-10 items-center">
+    <div class="reveal">
+      <h2 class="heading-lg">Masz już projekt? <span class="text-dab-light">Wycenimy go za darmo.</span></h2>
+      <p class="lead mt-5 max-w-2xl">Przynieś rysunek ze studia, szkic z&nbsp;kartki albo zdjęcie z&nbsp;internetu. Sprawdzimy wymiary, zaproponujemy materiały i&nbsp;okucia, a&nbsp;potem podamy cenę. Bez zobowiązań.</p>
+    </div>
+    <div class="flex flex-col sm:flex-row lg:flex-col gap-3 lg:items-end reveal">
+      <a href="tel:602503440" class="btn btn-oak px-7 py-4 text-base"><i data-lucide="phone" class="w-5 h-5"></i> 602 503 440</a>
+      <a href="mailto:wawrzek.meble@onet.pl?subject=Wycena%20mebli" class="btn btn-outline px-7 py-4 text-base"><i data-lucide="mail" class="w-5 h-5"></i> Wyślij projekt mailem</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ REALIZACJE ============ -->
+<section id="realizacje" class="py-20 md:py-28 px-5 md:px-8">
+  <div class="max-w-7xl mx-auto">
+    <div class="flex flex-col md:flex-row md:items-end md:justify-between gap-6 mb-12 reveal">
+      <div class="max-w-2xl">
+        <h2 class="heading-lg">Realizacje</h2>
+        <p class="lead mt-4">Kuchnie, zabudowy wysokie i&nbsp;meble pokojowe zamontowane u&nbsp;naszych klientów. Kliknij zdjęcie, żeby je powiększyć.</p>
+      </div>
+      <p class="text-ink-soft text-[0.95rem] md:text-right max-w-xs">Więcej zleceń na Facebooku:<br><strong class="text-grafit">BWKotwieja-Meble</strong></p>
+    </div>
+
+    <div class="gallery">
+      <button type="button" class="gallery-item" data-full="images/4.webp" data-caption="Kuchnia z wyspą w kolorze granatu i białymi frontami" aria-label="Powiększ: Kuchnia z wyspą w kolorze granatu i białymi frontami"><img src="images/4.webp" alt="Kuchnia z wyspą w kolorze granatu i białymi frontami" width="1600" height="1200" loading="lazy"></button>
+      <button type="button" class="gallery-item" data-full="images/2.webp" data-caption="Kuchnia w kształcie litery U z czarną zabudową wysoką" aria-label="Powiększ: Kuchnia w kształcie litery U z czarną zabudową wysoką"><img src="images/2.webp" alt="Kuchnia w kształcie litery U z czarną zabudową wysoką" width="1600" height="1200" loading="lazy"></button>
+      <button type="button" class="gallery-item" data-full="images/7.webp" data-caption="Kuchnia w kolorze szarej szałwii z dębowym blatem" aria-label="Powiększ: Kuchnia w kolorze szarej szałwii z dębowym blatem"><img src="images/7.webp" alt="Kuchnia w kolorze szarej szałwii z dębowym blatem" width="1600" height="1200" loading="lazy"></button>
+      <button type="button" class="gallery-item" data-full="images/25.webp" data-caption="Grafitowa kuchnia z lamelami w dekorze drewna" aria-label="Powiększ: Grafitowa kuchnia z lamelami w dekorze drewna"><img src="images/25.webp" alt="Grafitowa kuchnia z lamelami w dekorze drewna" width="1200" height="1600" loading="lazy"></button>
+      <button type="button" class="gallery-item" data-full="images/12.webp" data-caption="Biała kuchnia z podświetleniem LED i dębowym blatem" aria-label="Powiększ: Biała kuchnia z podświetleniem LED i dębowym blatem"><img src="images/12.webp" alt="Biała kuchnia z podświetleniem LED i dębowym blatem" width="1200" height="1600" loading="lazy"></button>
+      <button type="button" class="gallery-item" data-full="images/20.webp" data-caption="Kuchnia z barem w drewnie i grafitowymi frontami" aria-label="Powiększ: Kuchnia z barem w drewnie i grafitowymi frontami"><img src="images/20.webp" alt="Kuchnia z barem w drewnie i grafitowymi frontami" width="1600" height="1200" loading="lazy"></button>
+      <button type="button" class="gallery-item" data-full="images/21.webp" data-caption="Biała kuchnia na wysoki połysk z czarnymi akcentami" aria-label="Powiększ: Biała kuchnia na wysoki połysk z czarnymi akcentami"><img src="images/21.webp" alt="Biała kuchnia na wysoki połysk z czarnymi akcentami" width="1200" height="1600" loading="lazy"></button>
+      <button type="button" class="gallery-item" data-full="images/10.webp" data-caption="Szara kuchnia z dębowym blatem i okapem tubowym" aria-label="Powiększ: Szara kuchnia z dębowym blatem i okapem tubowym"><img src="images/10.webp" alt="Szara kuchnia z dębowym blatem i okapem tubowym" width="1600" height="1200" loading="lazy"></button>
+      <button type="button" class="gallery-item" data-full="images/8.webp" data-caption="Narożna kuchnia z frontami ramkowymi" aria-label="Powiększ: Narożna kuchnia z frontami ramkowymi"><img src="images/8.webp" alt="Narożna kuchnia z frontami ramkowymi" width="1200" height="1600" loading="lazy"></button>
+      <button type="button" class="gallery-item" data-full="images/27.webp" data-caption="Kuchnia w dekorze dębu z czarnymi frontami górnymi" aria-label="Powiększ: Kuchnia w dekorze dębu z czarnymi frontami górnymi"><img src="images/27.webp" alt="Kuchnia w dekorze dębu z czarnymi frontami górnymi" width="1200" height="1600" loading="lazy"></button>
+      <button type="button" class="gallery-item" data-full="images/23.webp" data-caption="Grafitowa kuchnia z barkiem w drewnie" aria-label="Powiększ: Grafitowa kuchnia z barkiem w drewnie"><img src="images/23.webp" alt="Grafitowa kuchnia z barkiem w drewnie" width="1600" height="1200" loading="lazy"></button>
+      <button type="button" class="gallery-item" data-full="images/17.webp" data-caption="Kuchnia w bieli i czarnym połysku" aria-label="Powiększ: Kuchnia w bieli i czarnym połysku"><img src="images/17.webp" alt="Kuchnia w bieli i czarnym połysku" width="1600" height="1200" loading="lazy"></button>
+      <button type="button" class="gallery-item is-hidden" data-full="images/26.webp" data-caption="Łóżko w zabudowie z szafami i półką z LED" aria-label="Powiększ: Łóżko w zabudowie z szafami i półką z LED"><img src="images/26.webp" alt="Łóżko w zabudowie z szafami i półką z LED" width="1600" height="1200" loading="lazy"></button>
+      <button type="button" class="gallery-item is-hidden" data-full="images/3.webp" data-caption="Biała kuchnia z barkiem obłożonym dębem" aria-label="Powiększ: Biała kuchnia z barkiem obłożonym dębem"><img src="images/3.webp" alt="Biała kuchnia z barkiem obłożonym dębem" width="1600" height="1200" loading="lazy"></button>
+      <button type="button" class="gallery-item is-hidden" data-full="images/5.webp" data-caption="Zabudowa wysoka z frontami ramkowymi i żaluzją" aria-label="Powiększ: Zabudowa wysoka z frontami ramkowymi i żaluzją"><img src="images/5.webp" alt="Zabudowa wysoka z frontami ramkowymi i żaluzją" width="1600" height="1200" loading="lazy"></button>
+      <button type="button" class="gallery-item is-hidden" data-full="images/6.webp" data-caption="Szara zabudowa wysoka z lodówką i piekarnikami" aria-label="Powiększ: Szara zabudowa wysoka z lodówką i piekarnikami"><img src="images/6.webp" alt="Szara zabudowa wysoka z lodówką i piekarnikami" width="1600" height="1200" loading="lazy"></button>
+      <button type="button" class="gallery-item is-hidden" data-full="images/9.webp" data-caption="Szafka narożna z półkami wysuwanymi" aria-label="Powiększ: Szafka narożna z półkami wysuwanymi"><img src="images/9.webp" alt="Szafka narożna z półkami wysuwanymi" width="1200" height="1600" loading="lazy"></button>
+      <button type="button" class="gallery-item is-hidden" data-full="images/11.webp" data-caption="Fronty w dekorze drewna z lamelami i czarnym okapem" aria-label="Powiększ: Fronty w dekorze drewna z lamelami i czarnym okapem"><img src="images/11.webp" alt="Fronty w dekorze drewna z lamelami i czarnym okapem" width="1200" height="1600" loading="lazy"></button>
+      <button type="button" class="gallery-item is-hidden" data-full="images/13.webp" data-caption="Wąska kuchnia z barkiem i winiarką" aria-label="Powiększ: Wąska kuchnia z barkiem i winiarką"><img src="images/13.webp" alt="Wąska kuchnia z barkiem i winiarką" width="1600" height="1200" loading="lazy"></button>
+      <button type="button" class="gallery-item is-hidden" data-full="images/14.webp" data-caption="Witryna z ryflowanym szkłem w czarnej ramie" aria-label="Powiększ: Witryna z ryflowanym szkłem w czarnej ramie"><img src="images/14.webp" alt="Witryna z ryflowanym szkłem w czarnej ramie" width="1200" height="1600" loading="lazy"></button>
+      <button type="button" class="gallery-item is-hidden" data-full="images/15.webp" data-caption="Słupek z piekarnikami i szufladami wewnętrznymi" aria-label="Powiększ: Słupek z piekarnikami i szufladami wewnętrznymi"><img src="images/15.webp" alt="Słupek z piekarnikami i szufladami wewnętrznymi" width="1200" height="1600" loading="lazy"></button>
+      <button type="button" class="gallery-item is-hidden" data-full="images/16.webp" data-caption="Czarna zabudowa wysoka z szufladami wewnętrznymi" aria-label="Powiększ: Czarna zabudowa wysoka z szufladami wewnętrznymi"><img src="images/16.webp" alt="Czarna zabudowa wysoka z szufladami wewnętrznymi" width="1200" height="1600" loading="lazy"></button>
+      <button type="button" class="gallery-item is-hidden" data-full="images/18.webp" data-caption="Biała kuchnia z frontami ramkowymi i dębowym blatem" aria-label="Powiększ: Biała kuchnia z frontami ramkowymi i dębowym blatem"><img src="images/18.webp" alt="Biała kuchnia z frontami ramkowymi i dębowym blatem" width="1600" height="1200" loading="lazy"></button>
+      <button type="button" class="gallery-item is-hidden" data-full="images/19.webp" data-caption="Narożnik z półkami wysuwanymi typu Le Mans" aria-label="Powiększ: Narożnik z półkami wysuwanymi typu Le Mans"><img src="images/19.webp" alt="Narożnik z półkami wysuwanymi typu Le Mans" width="1600" height="1200" loading="lazy"></button>
+      <button type="button" class="gallery-item is-hidden" data-full="images/22.webp" data-caption="Biała kuchnia połączona z jadalnią" aria-label="Powiększ: Biała kuchnia połączona z jadalnią"><img src="images/22.webp" alt="Biała kuchnia połączona z jadalnią" width="1200" height="1600" loading="lazy"></button>
+      <button type="button" class="gallery-item is-hidden" data-full="images/24.webp" data-caption="Biała zabudowa z regałem i szklanymi półkami" aria-label="Powiększ: Biała zabudowa z regałem i szklanymi półkami"><img src="images/24.webp" alt="Biała zabudowa z regałem i szklanymi półkami" width="1200" height="1600" loading="lazy"></button>
+      <button type="button" class="gallery-item is-hidden" data-full="images/1.webp" data-caption="Zabudowa z piekarnikami w słupku i spiżarnią" aria-label="Powiększ: Zabudowa z piekarnikami w słupku i spiżarnią"><img src="images/1.webp" alt="Zabudowa z piekarnikami w słupku i spiżarnią" width="1600" height="1200" loading="lazy"></button>
+    </div>
+    <div class="mt-10 text-center">
+      <button id="gallery-more" class="btn btn-outline px-7 py-3.5">Pokaż wszystkie zdjęcia <i data-lucide="chevron-down" class="w-4 h-4"></i></button>
+    </div>
+  </div>
+</section>
+
+<!-- ============ OPINIE ============ -->
+<section id="opinie" class="relative bg-grafit text-front on-dark py-20 md:py-28 px-5 md:px-8 overflow-hidden">
+  <div class="grain"></div>
+  <div class="relative max-w-7xl mx-auto">
+    <div class="grid lg:grid-cols-[1fr_auto] gap-8 items-end mb-12 reveal">
+      <div class="max-w-2xl">
+        <h2 class="heading-lg">Co mówią klienci</h2>
+        <p class="lead mt-4">Wszystkie opinie z&nbsp;Oferteo, gdzie jesteśmy od 12 lat.</p>
+      </div>
+      <div class="flex items-center gap-5">
+        <span class="font-display font-bold text-6xl md:text-7xl tracking-tight leading-none">5,0</span>
+        <div>
+          <div class="flex gap-0.5 text-dab-light" aria-label="5 na 5 gwiazdek">
+            <i data-lucide="star" class="w-5 h-5 fill-current"></i><i data-lucide="star" class="w-5 h-5 fill-current"></i><i data-lucide="star" class="w-5 h-5 fill-current"></i><i data-lucide="star" class="w-5 h-5 fill-current"></i><i data-lucide="star" class="w-5 h-5 fill-current"></i>
+          </div>
+          <p class="text-sm text-[#b9bdbb] mt-1">9 opinii, same piątki</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="reviews">
+      <blockquote class="review reveal">
+        <p>„Świetne wykonanie kuchni, bardzo dokładnie, schludnie i&nbsp;na wysokim poziomie. Miła usługa i&nbsp;fachowe doradztwo. Polecam wszystkim współpracę. Na pewno wrócę jeszcze do tego stolarza. Nie miałam pomysłu na jedną ściankę, ale Pan Wawrzyniec super doradził rozwiązanie oraz oczywiście wykonał.”</p>
+        <footer class="mt-4 text-sm text-dab-light font-semibold">E.M.</footer>
+      </blockquote>
+      <blockquote class="review reveal">
+        <p>„Super współpraca, pan Wawrzyniec bardzo fajnie potrafi doradzić, wszystko wykonane bardzo starannie i&nbsp;w&nbsp;terminie. Bardzo polecam.”</p>
+        <footer class="mt-4 text-sm text-dab-light font-semibold">A.</footer>
+      </blockquote>
+      <blockquote class="review reveal">
+        <p>„Jakość mebli pokojowych rewelacja: pełne wyposażenie do 5 pokoi (komplet: łóżko, szafa zabudowana, biurko, szafka). Dodatkowo olbrzymia szafa w&nbsp;przedpokoju, wykonana nie z&nbsp;materiału o&nbsp;grubości 5&nbsp;mm, ale porządna, masywna i&nbsp;mocna konstrukcja, a&nbsp;drzwi przesuwne bezawaryjne. Złożenie wszystkich mebli: nic się nie rusza, nie chwieje! W&nbsp;100% polecam!”</p>
+        <footer class="mt-4 text-sm text-dab-light font-semibold">P.W.</footer>
+      </blockquote>
+      <blockquote class="review reveal">
+        <p>„Super fachowiec, gorąco polecam. Montaż w&nbsp;terminie, wszystko zgodne z&nbsp;ustaleniami.”</p>
+        <footer class="mt-4 text-sm text-dab-light font-semibold">A.</footer>
+      </blockquote>
+      <blockquote class="review reveal">
+        <p>„Świetny i&nbsp;bardzo rzetelny fachowiec. Wszystko wykonane ze szczególną dokładnością, a&nbsp;przede wszystkim ma konkurencyjne ceny.”</p>
+        <footer class="mt-4 text-sm text-dab-light font-semibold">M.J.</footer>
+      </blockquote>
+      <blockquote class="review reveal">
+        <p>„Staranne wykonanie, dotrzymuje umówionych terminów. Szczerze polecam!”</p>
+        <footer class="mt-4 text-sm text-dab-light font-semibold">J.</footer>
+      </blockquote>
+      <blockquote class="review reveal">
+        <p>„Szczerze polecam, jestem bardzo zadowolona z&nbsp;wykonania mebli kuchennych.”</p>
+        <footer class="mt-4 text-sm text-dab-light font-semibold">R.</footer>
+      </blockquote>
+      <blockquote class="review reveal">
+        <p>„Super profesjonalnie, dokładnie i&nbsp;nawet tanio.”</p>
+        <footer class="mt-4 text-sm text-dab-light font-semibold">P.</footer>
+      </blockquote>
+      <blockquote class="review reveal">
+        <p>„Super współpraca, terminowe i&nbsp;profesjonalne wykonanie.”</p>
+        <footer class="mt-4 text-sm text-dab-light font-semibold">A.M.</footer>
+      </blockquote>
+    </div>
+  </div>
+</section>
+
+<!-- ============ KONTAKT ============ -->
+<section id="kontakt" class="py-20 md:py-28 px-5 md:px-8">
+  <div class="max-w-7xl mx-auto">
+    <div class="max-w-2xl mb-12 reveal">
+      <h2 class="heading-lg">Porozmawiajmy o&nbsp;Twoich meblach</h2>
+      <p class="lead mt-4">Najszybciej złapiesz nas telefonicznie w&nbsp;godzinach pracy. Projekty i&nbsp;zdjęcia wygodnie wysłać mailem.</p>
+    </div>
+
+    <div class="grid lg:grid-cols-[1fr_1.25fr] gap-5">
+      <div class="surface p-6 md:p-8 reveal">
+        <ul class="space-y-6">
+          <li>
+            <a href="tel:602503440" class="group flex items-start gap-4 rounded-md focus-ring">
+              <span class="icon-chip shrink-0"><i data-lucide="phone" class="w-5 h-5"></i></span>
+              <span><span class="block text-sm text-ink-soft">Telefon</span><span class="block font-display font-bold text-2xl tracking-tight group-hover:text-dab-dark transition-colors">602 503 440</span></span>
+            </a>
+          </li>
+          <li>
+            <a href="mailto:wawrzek.meble@onet.pl" class="group flex items-start gap-4 rounded-md focus-ring">
+              <span class="icon-chip shrink-0"><i data-lucide="mail" class="w-5 h-5"></i></span>
+              <span class="min-w-0"><span class="block text-sm text-ink-soft">E-mail</span><span class="block font-semibold text-lg break-all group-hover:text-dab-dark transition-colors">wawrzek.meble@onet.pl</span></span>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.google.com/maps/dir/?api=1&destination=Szczytowa+23,+33-100+Tarn%C3%B3w" target="_blank" rel="noopener" class="group flex items-start gap-4 rounded-md focus-ring">
+              <span class="icon-chip shrink-0"><i data-lucide="map-pin" class="w-5 h-5"></i></span>
+              <span><span class="block text-sm text-ink-soft">Adres</span><span class="block font-semibold text-lg group-hover:text-dab-dark transition-colors">Szczytowa 23, 33-100 Tarnów</span><span class="block text-sm text-dab-dark font-semibold mt-1">Wyznacz trasę</span></span>
+            </a>
+          </li>
+        </ul>
+
+        <div class="mt-8 pt-6 border-t border-black/10">
+          <h3 class="font-display font-bold text-lg tracking-tight flex items-center gap-2"><i data-lucide="clock" class="w-5 h-5 text-dab-dark"></i>Godziny pracy</h3>
+          <div class="mt-3 text-[0.98rem]">
+            <div class="hours-row" data-day="1"><span>Poniedziałek</span><span>7:00–16:00</span></div>
+            <div class="hours-row" data-day="2"><span>Wtorek</span><span>7:00–16:00</span></div>
+            <div class="hours-row" data-day="3"><span>Środa</span><span>7:00–16:00</span></div>
+            <div class="hours-row" data-day="4"><span>Czwartek</span><span>7:00–16:00</span></div>
+            <div class="hours-row" data-day="5"><span>Piątek</span><span>7:00–16:00</span></div>
+            <div class="hours-row" data-day="6"><span>Sobota</span><span>Zamknięte</span></div>
+            <div class="hours-row" data-day="0"><span>Niedziela</span><span>Zamknięte</span></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="photo min-h-[340px] lg:min-h-0 reveal">
+        <iframe title="Mapa dojazdu: Szczytowa 23, Tarnów" src="https://maps.google.com/maps?q=Szczytowa%2023%2C%2033-100%20Tarn%C3%B3w&z=15&output=embed" class="w-full h-full min-h-[340px] border-0" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="bg-grafit text-[#b9bdbb] on-dark">
+  <div class="wood h-2 w-full" aria-hidden="true"></div>
+  <div class="max-w-7xl mx-auto px-5 md:px-8 py-12 grid md:grid-cols-3 gap-8 text-[0.95rem]">
+    <div>
+      <p class="font-display font-bold text-xl text-front tracking-tight">BWKotwieja<span class="text-dab-light">-Meble</span></p>
+      <p class="mt-2">Producent mebli na wymiar w&nbsp;Tarnowie.</p>
+    </div>
+    <div>
+      <p class="text-front font-semibold">Kontakt</p>
+      <p class="mt-2"><a href="tel:602503440" class="hover:text-dab-light transition-colors">602 503 440</a><br><a href="mailto:wawrzek.meble@onet.pl" class="hover:text-dab-light transition-colors">wawrzek.meble@onet.pl</a><br>Szczytowa 23, 33-100 Tarnów</p>
+    </div>
+    <div>
+      <p class="text-front font-semibold">Strona</p>
+      <p class="mt-2 flex flex-col gap-1">
+        <a href="uslugi.html" class="hover:text-dab-light transition-colors w-fit">Usługi</a>
+        <a href="#realizacje" class="hover:text-dab-light transition-colors w-fit">Realizacje</a>
+        <a href="#opinie" class="hover:text-dab-light transition-colors w-fit">Opinie</a>
+      </p>
+    </div>
+  </div>
+  <div class="border-t border-white/10">
+    <p class="max-w-7xl mx-auto px-5 md:px-8 py-5 text-sm">© <span id="year">2026</span> BWKotwieja-Meble, Tarnów</p>
+  </div>
+</footer>
+
+<!-- ============ LIGHTBOX ============ -->
+<div id="lightbox" class="lightbox" role="dialog" aria-modal="true" aria-label="Podgląd zdjęcia">
+  <button id="lb-close" class="lb-btn top-4 right-4" aria-label="Zamknij"><i data-lucide="x" class="w-5 h-5"></i></button>
+  <button id="lb-prev" class="lb-btn left-3 md:left-6 top-[calc(50%-1.5rem)]" aria-label="Poprzednie zdjęcie"><i data-lucide="chevron-left" class="w-5 h-5"></i></button>
+  <button id="lb-next" class="lb-btn right-3 md:right-6 top-[calc(50%-1.5rem)]" aria-label="Następne zdjęcie"><i data-lucide="chevron-right" class="w-5 h-5"></i></button>
+  <figure>
+    <img id="lb-img" src="" alt="">
+    <figcaption id="lb-cap"></figcaption>
+  </figure>
+</div>
+
+<script src="main.js"></script>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
